@@ -1,0 +1,255 @@
+<!DOCTYPE HTML>
+<!--Intro to Programming, Stage 1 Project - Andy Wieczorkowski-->
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Intro to Programming Stage 1 Project - Andy Wieczorkowski</title>
+  </head>
+  <body>
+    <div class="TOC">
+    <h1>Table of Contents</h1>
+    <ol>
+      <li class="TOC-lesson"><a href="#lesson-1">Lesson 1: The Basics of the Web and HTML</a>
+        <ul>
+          <li><a href="#lesson-1-1">Introduction and Discussion</a></li>
+          <li><a href="#lesson-1-2">HTML</a></li>
+          <li><a href="#lesson-1-3">Tags and Elements</a></li>
+          <li><a href="#lesson-1-4">Inline vs. Block Elements</a></li>
+          <li><a href="#lesson-1-5">Computer Language</a></li>
+        </ul>
+      </li>
+      <li class="TOC-lesson"><a href="#lesson-2">Lesson 2: Structures within HTML</a>
+        <ul>
+          <li><a href="#lesson-2-1">Purposes of HTML, CSS, and JavaScript</a></li>
+          <li><a href="#lesson-2-2">Inspecting Code on Webpages</a></li>
+          <li><a href="#lesson-2-3">Code Structure</a></li>
+          <li><a href="#lesson-2-4">Boxes</a></li>
+        </ul>
+      </li>
+      <li class="TOC-lesson"><a href="#lesson-3">Lesson 3: Using CSS to Add Style</a>
+        <ul>
+          <li><a href="#lesson-3-1">Purpose of CSS</a></li>
+          <li><a href="#lesson-3-2">Structure of CSS</a></li>
+          <li><a href="#lesson-3-3">Inheritance</a></li>
+          <li><a href="#lesson-3-4">Example of Inheritance</a></li>
+          <li><a href="#lesson-3-5">The Box Model</a></li>
+          <li><a href="#lesson-3-6">Design Mock Workflow</a></li>
+        </ul>
+      </li>
+    </ol>
+    </div>
+    <h1>Important Concepts</h1>
+    <div class="lesson">
+      <h2 id="lesson-1">Lesson 1: The Basics of the Web and HTML</h2>
+      <div class="concept" id="lesson-1-1">
+        <div class="concept-title">
+        Introduction and Discussion   <!--Concept 1-->
+        </div>
+        <div class="concept-description">
+        <p>
+          The world wide web is made up of computers that communicate with each other.  You as the user interface with a computer that uses the internet to communicate with 
+          servers that are computers that are optimized to store files.
+          HTTP is the protocol used to communicate with servers by way of a browser like Mozilla Firefox.  
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-1-2">
+      <div class="concept-title">
+        HTML     <!-- Concept 2-->
+      </div>
+      <div class="concept-description">
+        <p>
+          HTML markup describes what the text looks like and how it is arranges on the page.   HTML (<em>hyper-text markup language</em>) is the main type of document on the web.
+          All pages have HTML.  HTML is a file just like an image, document, or mp3. Here is an example of a link to <a href="codepen.io">codepen</a>. Whitespace is all treated the same no matter how many spaces or returns in the line. 
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-1-3">
+      <div class="concept-title">
+        Tags and Elements
+      </div>
+      <div class="concept-description">
+          <p>
+            One of the components within HTML code is the "<b>tag</b>."   An element is the tag along with the contents.  There are also HTML attributes like "href" or "src" which are used for links and images, respectively. Void tags do not have a closing tag.  One example is the "br" tag which is also classified as an inline tag.  
+          </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-1-4">
+      <div class="concept-title">
+        Inline vs. Block Elements
+      </div>
+      <div class="concept-description">
+          <p>
+            The "br" tag just ends the line.
+            The "p" tage is a block element that creates an invisible box  around te element
+            that can be defined by length and width. 
+          </p>
+      </div>
+    </div>  
+      <div class="concept" id="lesson-1-5">
+        <div class="concept-title">
+          Computer Language
+        </div>
+        <div class="concept-description">
+          <p>
+            Computers are not smart and must be told exactly what to do.  Once one
+            understands the proper language to communicate with the computer, one can
+            tell it exactly what to do when following the rules that the computer
+            understands. 
+          </p>
+        </div> 
+      </div>
+    </div>
+
+    <div class="lesson">
+    <h2 id="lesson-2">Lesson 2 - Structures within HTML</h2>
+      <div class="concept" id="lesson-2-1">
+        <div class="concept-title">
+          Purposes of HTML, CSS, and Javascript
+        </div>
+        <div class="concept-description">
+          <p>HTML files are the structure<br>
+          CSS files are the style<br>
+          JS files are the interactive components<br>
+          </p>
+        </div>
+      </div>
+    <div class="concept" id="lesson-2-2">
+      <div class="concept-title">
+        Inspecting Code on Webpages
+      </div>
+      <div class="concept-description">
+        <p>
+          One can inspect the code of a webpage using Chrome, by opening the developer tools within the menu.  Once the developer tools have been opened, one can then find the elements when looking at the code.  All elements are rectangular and by looking through the code you can read the same text within the code that is on the page.  
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-2-3">
+      <div class="concept-title">
+        Code Structure
+      </div>
+      <div class="concept-description">
+        <p>
+          There is a tree like structure within the code.  Sideways triangles are an HTML element that can be expanded once clicked upon.  One can take the tree structure and map it out in a flow-like diagram to understand how the elements branch out from one another and how they should be formatted within the code (i.e. indenatation) for easy reading.  The DOM (Document Object Model) is the tree like structure of a page.  
+        </p>
+        <p>
+          One can look at the styles (or rules) of the code (CSS) by highlighting elements then looking in "rules" within Firefox or "styles" within Chrome.  CSS uses syntax and rules to determine how things look.  For example, the code can say something like, "all items tied to 'article' should be 50px high and bright green."
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-2-4">
+      <div class="concept-title">
+        Boxes
+      </div>
+      <div class="concept-description">
+        <p>
+          Everything on a webpage is a box.  You can right click on any element within a webpage, then click "inspect element" to go right to that element within the code.  When inspecting an element that is a circle, if "border-radius" is unchecked, it will turn into a square.  When a programmer is given an image of website design, they must Boxify the Design.  To boxify a design, one would start with the bigger boxes, grouping the header elements, then image elements, and break it down into smaller elements from there.  In order to create these boxes within HTML, one could use "div" tags and give each tag a class attribute which acts like a label on the box for easier organization.  
+        </p>
+      </div>
+    </div>
+  </div>
+
+    <div class="lesson">
+      <h2 id="lesson-3">Lesson 3 - Using CSS to Add Style</h2>
+      <div class="concept" id="lesson-3-1">
+        <div class="concept-title">
+          Purpose of CSS
+        </div>
+        <div class="concept-description">
+          <p>
+            CSS Code is used to add style to the programming.  CSS stands for "Cascading Style Sheets."  The "C" is by far the most important part of this phrase.CSS code also allows programmers to avoid repetition and not repeat commands.  
+          </p>
+          <p>
+            Avoiding repetition is important because it allows the programmer to avoid errors by applying one style attribute to many HTML elements without having to re-write the same code for multiple elements.  It also allows for quick changes to style.  If a programmer did not use CSS, he or she would have to make multiple changes thoughout the HTML code when changing a style that affects multiple elements.  This leads to errors or inconsistency within the page.  For consistency purposes, one can assign a group of "divs" the same class and specifiy the style just one time for that class within CSS, rather than manually giving each lesson or concept within this webpage the same style by repeating code within HTML.
+          </p>
+        </div>
+      </div>
+      <div class="concept" id="lesson-3-2">
+        <div class="concept-title">
+          Structure of CSS
+        </div>
+        <div class="concept-description">
+          <p>
+            One can have several styles or sheets that are referenced within HTML.  The rules (or styles) cascade in a manner that is similar to laws within the United States.  For example there are national laws, state laws, municipality laws, and finally your own personal house rules.  CSS is different from the way laws within the United States are applied because within CSS, the most specific rule is applied to every element.  This means that house rules would be like the national law.  
+          </p>
+          <p>
+            Rule Specificity and Priority rules are as follows:<br>
+          - IDs are more specific than classes<br>
+          - # refers to an ID<br>
+          - . refers to a class
+          </p>
+        </div>
+      </div>
+      <div class="concept" id="lesson-3-3">
+        <div class="concept-title">
+          Inheritance
+        </div>
+        <div class="concept-description">
+          <p>
+            Inheritance is a key feature in CSS, it relies on the ancestor-descendant relationship to operate. Inheritance is the mechanism by which properties are applied not only to a specified element, but also to its descendants.[<a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#cite_note-Cascading-11">REF1</a>] Inheritance relies on the document tree, which is the hierarchy of (X)HTML elements in a page based on nesting. Descendant elements may inherit CSS property values from any ancestor element enclosing them. In general, descendant elements inherit text-related properties, but box-related properties are not inherited. Properties that can be inherited are color, font, letter-spacing, line-height, list-style, text-align, text-indent, text-transform, visibility, white-space and word-spacing. Properties that cannot be inherited are background, border, display, float and clear, height and width, margin, min- and max-height and -width, outline, overflow, padding, position, text-decoration, vertical-align and z-index.  [<a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#Inheritance">REF2</a>]
+          </p>
+          <p>
+            Inheritance prevents certain properties from being declared over and over again in a style sheet, allowing the software developers to write less CSS. It enhances faster-loading of web pages by users and enables the clients to save money on bandwidth and development costs. [<a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#Inheritance">REF2</a>]
+         </p>
+        </div>
+      </div>
+        <div class="concept" id="lesson-3-4">
+          <div class="concept-title">
+            Example of Inheritance
+          </div>
+          <div class="concept-description">
+            <p>
+              Given the following stylesheet:<br>
+              h1{<br>
+                color:pink;<br>
+              }<br>
+              <br>
+              Suppose there is an h1 element with an emphasizing element (em) inside.<br>
+              If no color has been assigned to the "em" element, the emphasized word will inherit the color of the parent element h1.  The style sheet h1 has the color pink, hence the "em" element will likewise be in pink.  
+            </p>
+          </div>
+        </div>
+        <div class="concept" id="lesson-3-5">
+          <div class="concept-title">
+            The Box Model
+          </div>
+          <div class="concept-description">
+            <p>
+              <img src="The_Box_Model.png" alt="The Box Model"><br>
+              <em>Sourced from Udacity Intro to Programming class materials</em>
+            </p>
+            <p>
+              In order to make the calculation of the element size include both the border and padding and make it easier to calculate overall box size, the following language should be used in the CSS file.  This was used to do the border exercise in class.  Please note that this does not include margin.<br>
+              *{<br>
+              -webkit-box-sizing: border-box;<br>
+              -moz-box-sizing: border-box;<br>
+              -ms-box-sizing: border-box;<br>
+              Box-sizing: border-box;<br>
+              }<br>
+            </p>
+            <p>
+              Box Sizing Pointers<br><br>
+              1. HTML elements are boxes and each box has the 4 components shown in the Box Model image above. <br>
+              2. It is possible to set the size of a box using either pixels (i.e. width: 460px;) or a percentage (i.e. height: 50%;).  If a percentage is used, the size of the box will change depending on the screen size.  <br>
+              3. A max width can also be set so that a box will resize as necessary, but never go over a maximum width value (i.e. max-width: 460px;).<br>
+              4. Since different browsers work differently, they may display the same code differently.  In order to account for this, certain commands can be used to ensure uniformity of box sizing across platforms.
+            </p>
+          </div>
+        </div>
+        <div class="concept" id="lesson-3-6">
+          <div class="concept-title">
+            Design Mock Workflow - Code, Test, Refine
+          </div>
+          <div class="concept-description">
+            <p>
+              1. Look for natural boxes<br>
+              2. Look for repeated styles and semantic elements<br>
+              3. Write your HTML<br>
+              4. Apply styles (From biggest to smallest)<br>
+              5. Fix things<br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </html>
